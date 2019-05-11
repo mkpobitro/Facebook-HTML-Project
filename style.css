@@ -1,0 +1,342 @@
+body{
+	margin: 0;
+	font-family: tahoma;
+}
+
+.container{
+	width: 80%;
+	margin: auto;
+}
+
+/********** Header Area ***********/
+.header-area{
+	background: #3C5A98;
+	color: #fff;
+	padding: 14px 0;
+	font-size: 13px;
+}
+
+.header-area .logo-area{
+	width: 30%;
+	float: left;
+	margin-top: 10px;
+}
+
+
+.login-area label,
+.login-area input{
+	display: block;
+}
+
+
+.header-area .login-area{
+	width: 70%;
+	overflow: hidden;
+}
+
+.login-area .user{
+	float: left;
+	margin-right: 10px;
+	overflow: hidden;
+}
+
+.login-area .pass{
+	overflow: hidden;
+	float: left;
+	margin-right: 10px;
+}
+
+.user input[type="checkbox"]{
+	float: left;
+}
+
+.user label:last-child{
+	margin: 4px 16px 0;
+}
+
+.login-area input{
+	margin: 5px 0 2px;
+}
+
+.login-area .pass a{
+	color: #9CB4D8;
+	text-decoration: none;
+	margin-top: 4px;
+	display: block;
+}
+
+.login-area .pass a:hover{
+	text-decoration: underline;
+}
+
+.login-area .submit{
+	overflow: hidden;
+}
+
+.login-area .submit input{
+	background: #4267b2;
+	color: #fff;
+	margin-top: 21px;
+	padding: 4px 8px;
+    border: 1px solid #29487D;
+}
+
+.login-area .submit input:hover{
+	background: #365899;
+	cursor: pointer;
+}
+
+.user input[type="text"],
+.pass input[type="password"]{
+	border: 1px solid #29487D;
+	padding: 3px 5px;
+}
+
+.login-area form{
+	float: right;
+}
+
+
+/********** Middle Area ***********/
+
+.middle-area{
+	background: linear-gradient(#FBFBFD,#E1E5F0);
+}
+
+/* Left Area */
+
+.middle-area .left-area{
+	width: 55%;
+	margin-right: 5%;
+	float: left;
+	padding: 20px 0;
+}
+
+.left-area h2{
+	font-size: 20px;
+	color: #0E385F;
+}
+
+/* Right Area */
+
+.middle-area .right-area{
+	width: 40%;
+	overflow: hidden;
+	padding: 22px 0;
+}
+
+.right-area h1{
+	font-size: 36px;
+	color: #333333;
+	margin: 0;
+}
+
+.right-area h3{
+	font-size: 22px;
+	color: #333333;
+	font-weight: 400;
+	font-family: Arial, sans-serif;
+	margin: 15px 0;
+}
+
+.right-area input[type="text"],
+.right-area input[type="password"]{
+	display: block;
+	margin-bottom: 10px;
+	width: 100%;
+	padding: 5px 10px;
+	box-sizing: border-box;
+	font-size: 20px;
+	border-radius: 4px;
+	border: 1px solid #BDC7D8;
+}
+
+.right-area input[type="text"]:first-child{
+	width: 49%;
+	float: left;
+	margin-right:2%;
+}
+
+.right-area input[type="text"]:nth-child(2){
+	width: 49%;
+	overflow: hidden;
+}
+
+.birthday-area{
+	padding: 10px 0;
+}
+.birthday-area h2{
+	font-size: 21px;
+	font-weight: normal;
+	margin: 0;
+}
+.birthday-area select{
+	margin: 6px 0;
+	border: 1px solid #ADADAD;
+	padding: 5px;
+	border-radius: 4px;
+	float: left;
+	
+}
+.birthday-area select:nth-child(4){
+	margin-right: 12px;
+}
+.birthday-area a{
+	font-size: 11px;
+	margin-left: 10px;
+	line-height: 15px;
+	display: block;
+	text-decoration: none;
+	margin-top: 4px;
+	color: #365899;
+}
+.birthday-area a:hover{
+	text-decoration: underline;
+}
+
+
+.gender-section{
+	padding: 10px 0;
+}
+.gender-section label{
+	font-size: 18px;
+	font-weight: 400;
+}
+.gender-section p{
+	font-size: 12px;
+    width: 79%;
+	color: #666666;
+}
+.gender-section a{
+	text-decoration: none;
+	color: #365899;
+}
+.gender-section a:hover{
+	text-decoration: underline;
+}
+
+
+.submit-area{
+	
+}
+.submit-area input{
+	background: linear-gradient(#578843, #65AA53);
+    color: #fff;
+    padding: 8px 28px;
+    font-size: 18px;
+    border: 1px solid #3B6E22;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.submit-area input:hover{
+	background: linear-gradient(#65AA53, #578843);
+}
+.submit-area p{
+	color: #333;
+	font-size: 14px;
+}
+.submit-area p a{
+	color: #365899;
+	text-decoration: none;
+}
+.submit-area p a:hover{
+	text-decoration: underline;
+}
+
+
+/**** Footer Area ****/
+
+.footer-area .container{
+	width: 88%;
+	display: block;
+	margin: auto;
+}
+
+.footer-area{
+	color: #365899;
+	font-size: 12px;
+	padding: 15px 0;
+}
+
+.footer-area ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.footer-area ul li{
+	float: left;
+
+}
+.footer-area ul li a{
+	text-decoration: none;
+}
+.footer-area ul li a:hover{
+	text-decoration: underline;
+}
+
+.ftr-top,
+.ftr-bottom{
+	overflow: hidden;
+}
+.ftr-top ul li{
+	margin-right: 15px;
+}
+
+.ftr-top ul li:last-child{
+	background: #F6F7F9;
+	border: 1px solid #DDDFE2;
+	font-size: 18px;
+}
+.ftr-top ul li:last-child:hover{
+	background: #D8DCEB;
+
+}
+
+.ftr-top ul li:last-child a{
+	padding: 0 10px;
+	color: #000;
+}
+.ftr-top ul li:last-child:hover a{
+	text-decoration: none;
+}
+
+.footer-area hr{
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 1px solid #ccc;
+	margin: 10px 0;
+}
+
+.ftr-bottom{
+	width: 100%;
+}
+
+.ftr-bottom ul li{
+	width: 10%;
+	margin: 2px 0;
+}
+
+
+.ftr-content p{
+	color: #666;
+	font-size: 12px;
+	margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

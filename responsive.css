@@ -1,0 +1,68 @@
+
+@media all and (max-width: 930px){
+	.left-area img{
+		max-width: 100%;
+	}
+}
+
+
+@media all and (max-width: 768px){
+	.header-area .logo-area{
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	.header-area .login-area{
+		width: 100%;
+	}
+	.login-area form{
+		float: none;
+		width: 380px;
+		margin: auto;
+	}
+	.login-area .user{
+		overflow: hidden;
+	}
+	
+	.middle-area .left-area{
+		width: 100%;
+		float: none;
+	}
+	.middle-area .right-area{
+		width: 100%;
+	}
+	.birthday-area select{
+		float: none;
+	}
+	
+	.ftr-bottom{
+		width: 100%;
+	}
+	.footer-area ul li{
+		float: none;
+		display: inline-block;
+		width: 20%;
+	}
+	
+}
+
+@media all and (max-width: 460px){
+	.login-area form{
+		width: auto;
+	}
+	.login-area .user{
+		float: none;
+	}
+	.login-area .pass{
+		float: none;
+	}
+	.login-area input[type="text"],
+	.login-area input[type="password"]{
+		width: 100%;
+	}
+	
+	.footer-area ul li{
+		width: 25%;
+	}
+	
+	
